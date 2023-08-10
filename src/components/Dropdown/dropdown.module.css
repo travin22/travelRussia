@@ -1,0 +1,30 @@
+.dropdown {
+    margin: 0 auto;
+    position: relative;
+}
+.dropdownBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 6px;
+    background: none;
+    border: none;
+    font-size: 24px;
+}
+.dropdownContent {
+    position: absolute;
+    padding: 12px;
+}
+.dropdownItem {
+    padding: 6px;
+    background: none;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.dropdownItem:hover {
+    backdrop-filter: blur(6px);
+}

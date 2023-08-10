@@ -1,14 +1,26 @@
 .wrapper {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 100%;
     height: 60px;
     z-index: 1;
     position: fixed;
     background: none;
+    display: flex;
+    justify-content: space-between;
 }
-.wrapper h1 {
-    margin: 0;
-    color: black;
-    font-size: 24px;
+.logo {
+    height: 48px;
+    margin-top: 12px;
+    margin-left: 36px;
+}
+.navigate {
+    display: flex;
+    margin-top: 12px;
+    margin-right: 36px;
+}
+.lk {
+    height: 48px;
+    margin-right: 12px;
+
 }
